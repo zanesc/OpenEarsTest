@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F04254A1D7CF1CE006DEC24 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F0425471D7CF1CE006DEC24 /* AcousticModelEnglish.bundle */; };
+		2F04254B1D7CF1CE006DEC24 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0425481D7CF1CE006DEC24 /* OpenEars.framework */; };
+		2F04254C1D7CF1CE006DEC24 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0425491D7CF1CE006DEC24 /* Slt.framework */; };
+		2F04254E1D7CF204006DEC24 /* TestAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F04254D1D7CF204006DEC24 /* TestAudio.mp3 */; };
 		2F3170BA1D7CECEF00E99A36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3170B91D7CECEF00E99A36 /* AppDelegate.swift */; };
 		2F3170BC1D7CECEF00E99A36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3170BB1D7CECEF00E99A36 /* ViewController.swift */; };
 		2F3170BF1D7CECF000E99A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3170BD1D7CECF000E99A36 /* Main.storyboard */; };
 		2F3170C11D7CECF000E99A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3170C01D7CECF000E99A36 /* Assets.xcassets */; };
 		2F3170C41D7CECF000E99A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3170C21D7CECF000E99A36 /* LaunchScreen.storyboard */; };
-		2F3170CF1D7CECF000E99A36 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3170CE1D7CECF000E99A36 /* testTests.swift */; };
-		2F3170DA1D7CECF000E99A36 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3170D91D7CECF000E99A36 /* testUITests.swift */; };
+		2F3170EA1D7CEF1500E99A36 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3170E91D7CEF1500E99A36 /* AudioToolbox.framework */; };
+		2F3170EC1D7CEF1B00E99A36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3170EB1D7CEF1B00E99A36 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F0425471D7CF1CE006DEC24 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		2F0425481D7CF1CE006DEC24 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		2F0425491D7CF1CE006DEC24 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		2F04254D1D7CF204006DEC24 /* TestAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TestAudio.mp3; sourceTree = "<group>"; };
 		2F3170B61D7CECEF00E99A36 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3170B91D7CECEF00E99A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F3170BB1D7CECEF00E99A36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +50,10 @@
 		2F3170C31D7CECF000E99A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F3170C51D7CECF000E99A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F3170CA1D7CECF000E99A36 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F3170CE1D7CECF000E99A36 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
-		2F3170D01D7CECF000E99A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F3170D51D7CECF000E99A36 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F3170D91D7CECF000E99A36 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
-		2F3170DB1D7CECF000E99A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3170E91D7CEF1500E99A36 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2F3170EB1D7CEF1B00E99A36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2F3170EF1D7CEF9000E99A36 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F04254C1D7CF1CE006DEC24 /* Slt.framework in Frameworks */,
+				2F3170EC1D7CEF1B00E99A36 /* AVFoundation.framework in Frameworks */,
+				2F3170EA1D7CEF1500E99A36 /* AudioToolbox.framework in Frameworks */,
+				2F04254B1D7CF1CE006DEC24 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F0425461D7CF1CE006DEC24 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2F0425471D7CF1CE006DEC24 /* AcousticModelEnglish.bundle */,
+				2F0425481D7CF1CE006DEC24 /* OpenEars.framework */,
+				2F0425491D7CF1CE006DEC24 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 		2F3170AD1D7CECEF00E99A36 = {
 			isa = PBXGroup;
 			children = (
+				2F3170EB1D7CEF1B00E99A36 /* AVFoundation.framework */,
+				2F3170E91D7CEF1500E99A36 /* AudioToolbox.framework */,
 				2F3170B81D7CECEF00E99A36 /* test */,
-				2F3170CD1D7CECF000E99A36 /* testTests */,
-				2F3170D81D7CECF000E99A36 /* testUITests */,
 				2F3170B71D7CECEF00E99A36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,31 +119,16 @@
 			isa = PBXGroup;
 			children = (
 				2F3170B91D7CECEF00E99A36 /* AppDelegate.swift */,
-				2F3170BB1D7CECEF00E99A36 /* ViewController.swift */,
-				2F3170BD1D7CECF000E99A36 /* Main.storyboard */,
 				2F3170C01D7CECF000E99A36 /* Assets.xcassets */,
-				2F3170C21D7CECF000E99A36 /* LaunchScreen.storyboard */,
+				2F0425461D7CF1CE006DEC24 /* Framework */,
 				2F3170C51D7CECF000E99A36 /* Info.plist */,
+				2F3170C21D7CECF000E99A36 /* LaunchScreen.storyboard */,
+				2F3170BD1D7CECF000E99A36 /* Main.storyboard */,
+				2F3170EF1D7CEF9000E99A36 /* test-Bridging-Header.h */,
+				2F04254D1D7CF204006DEC24 /* TestAudio.mp3 */,
+				2F3170BB1D7CECEF00E99A36 /* ViewController.swift */,
 			);
 			path = test;
-			sourceTree = "<group>";
-		};
-		2F3170CD1D7CECF000E99A36 /* testTests */ = {
-			isa = PBXGroup;
-			children = (
-				2F3170CE1D7CECF000E99A36 /* testTests.swift */,
-				2F3170D01D7CECF000E99A36 /* Info.plist */,
-			);
-			path = testTests;
-			sourceTree = "<group>";
-		};
-		2F3170D81D7CECF000E99A36 /* testUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2F3170D91D7CECF000E99A36 /* testUITests.swift */,
-				2F3170DB1D7CECF000E99A36 /* Info.plist */,
-			);
-			path = testUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F04254E1D7CF204006DEC24 /* TestAudio.mp3 in Resources */,
 				2F3170C41D7CECF000E99A36 /* LaunchScreen.storyboard in Resources */,
+				2F04254A1D7CF1CE006DEC24 /* AcousticModelEnglish.bundle in Resources */,
 				2F3170C11D7CECF000E99A36 /* Assets.xcassets in Resources */,
 				2F3170BF1D7CECF000E99A36 /* Main.storyboard in Resources */,
 			);
@@ -265,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3170CF1D7CECF000E99A36 /* testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3170DA1D7CECF000E99A36 /* testUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +407,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Zane/Documents/XcodeProjects/test/test/Framework/,
+					"$(PROJECT_DIR)/test/Framework",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zanesc.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +425,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Zane/Documents/XcodeProjects/test/test/Framework/,
+					"$(PROJECT_DIR)/test/Framework",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zanesc.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +503,7 @@
 				2F3170E01D7CECF000E99A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F3170E11D7CECF000E99A36 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +512,7 @@
 				2F3170E31D7CECF000E99A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F3170E41D7CECF000E99A36 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +521,7 @@
 				2F3170E61D7CECF000E99A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
