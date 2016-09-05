@@ -88,7 +88,19 @@ class ViewController: UIViewController, OEEventsObserverDelegate {
 //		OEPocketsphinxController.sharedInstance().audioMode = "VoiceChat"
 		
 		// Tried turning off mixing but does not fix anything.
-//		OEPocketsphinxController.sharedInstance().disableMixing = true
+//		OEPocketsphinxController.sharedInstance().disableMixing = false
+		
+		// Tried turning off session resets while stopped but does not fix anything.
+//		OEPocketsphinxController.sharedInstance().disableSessionResetsWhileStopped = true
+		
+		// Tried disableing preferred buffer size but does not fix anything.
+//		OEPocketsphinxController.sharedInstance().disablePreferredBufferSize = true
+
+		// Tried disableing preferred channel number but does not fix anythin.
+//		OEPocketsphinxController.sharedInstance().disablePreferredChannelNumber = true
+		
+		// OMG THIS WORKS. IT IS FIXED.
+		OEPocketsphinxController.sharedInstance().disablePreferredSampleRate = true
 		
 		OEPocketsphinxController.sharedInstance().startListeningWithLanguageModelAtPath(lmPath!, dictionaryAtPath: dicPath!, acousticModelAtPath: OEAcousticModel.pathToModel("AcousticModelEnglish"), languageModelIsJSGF: false)
 	}
