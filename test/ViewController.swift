@@ -88,7 +88,7 @@ class ViewController: UIViewController, OEEventsObserverDelegate {
 //		OEPocketsphinxController.sharedInstance().audioMode = "VoiceChat"
 		
 		// Tried turning off mixing but does not fix anything.
-		OEPocketsphinxController.sharedInstance().disableMixing = true
+//		OEPocketsphinxController.sharedInstance().disableMixing = true
 		
 		OEPocketsphinxController.sharedInstance().startListeningWithLanguageModelAtPath(lmPath!, dictionaryAtPath: dicPath!, acousticModelAtPath: OEAcousticModel.pathToModel("AcousticModelEnglish"), languageModelIsJSGF: false)
 	}
